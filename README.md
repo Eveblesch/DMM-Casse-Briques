@@ -1,6 +1,5 @@
 # PROJET DE DEVELOPPEMENT MULTIMEDIA			UNIVERSITE DE STRASBOURG - L2 CMI
-**CERDAN Baptiste									Mai 2019
-BLESCH Eve**
+**BLESCH Eve CERDAN Baptiste-Mai 2019**  
 
 - *Remarque 1* : Utiliser de préférence **Firefox** comme moteur de recherche.  
 - *Remarque 2* : Mettre le jeu en **plein écran.**
