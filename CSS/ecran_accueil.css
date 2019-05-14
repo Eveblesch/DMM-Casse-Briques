@@ -1,0 +1,92 @@
+body{
+    background-image: url("../images/fond.jpg");
+    background-size: 1920px 1080px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    opacity: 0.8;
+    margin-left : 570px;
+    margin-top: 70px;
+}
+
+#champ_pseudo{
+  border: 2px solid white;
+  border-radius: 4px;
+  padding : 10px 10px;
+  width: 250px;
+  margin-left : 540px;
+  opacity: 0.8;
+}
+
+button{
+    color: black;
+    opacity: 0.6;
+    padding: 15px 25px;
+      font-size: 22px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 7px;
+    font-family: "Comic Sans MS",serif;
+
+}
+
+button:hover {
+  background-color: grey;
+}
+/*
+a{
+    text-decoration: none;
+    color: black;
+}*/
+/*
+#score{
+  position: relative;
+  /*left: 20px;
+  width: 300px;
+  
+  text-decoration: none;*/
+/*  color:white;
+  font-family: "Comic Sans MS",serif;
+}
+*/
+li{
+  font-weight:bold;
+  margin: 0 auto;
+  
+  list-style-type: none; 
+  padding:20px;
+  text-align: center;
+  color:white;
+}
+
+/*
+#score{
+    font-weight:bold;
+  margin: 0 auto;
+  width: 250px;
+  list-style-type: none; 
+  padding:20px;
+  text-align: center;
+  color:white;
+}*/
+
+#affichage_score{
+
+border: 5px solid white;
+border-radius: 10px;
+width: 440px;
+margin-top:10px;
+font-size:26px;
+margin-left:530px;
+
+}
+
+p{
+  color:white;
+  font-family: "Comic Sans MS",serif;
+  font-size:20px;
+  margin-top:10px;
+  margin-left:450px;
+}

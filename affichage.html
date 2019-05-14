@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/affichage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script language="JavaScript" src="fonctionnement/stockage.js"></script>
+    <title>JEU</title>
+  </head>
+  <body onload="init();">
+
+  <div id="instructions">
+    <p><b>INSTRUCTIONS</b></p>
+    <p>Echap -> Pause <p>
+    <p>     R      -> Actualiser</p>
+    <p>     M   -> Tirer des missiles</p>
+    <p>Espace -> Renvoyer la balle</p>
+    <p>V -> Activer/Desactiver le son</p>
+
+    <br><br>
+    <p><b>BONUS</b></p>
+    <p>Violet -> balle aimantée</p>
+    <p>Vert -> agrandissement du paddle</p>
+    <p>Rouge -> Missiles</p>
+    <p>Bleu -> Multi-balles</p>
+
+  </div>
+
+    <canvas id="canvas" height="650px" width="800px"></canvas>
+    <script language="JavaScript" src="fonctionnement/vie.js" ></script>
+
+    <script language="JavaScript" src="structure/balle.js" ></script>
+    <script language="JavaScript" src="structure/paddle.js" ></script>
+
+
+    <script language="JavaScript" src="bonus/bonus.js" ></script>
+    <script language="JavaScript" src="structure/brique.js" ></script>
+    <script language="JavaScript" src="fonctionnement/evenements.js" ></script>
+    <script language="JavaScript" src="bonus/missile.js" ></script>
+
+
+    <script language="JavaScript" src="fonctionnement/victoire.js" ></script>
+    <script language="JavaScript" src="fonctionnement/reset.js" ></script>
+
+  </br>
+  <div id="boutons">
+    <button class="btn"><i class="glyphicon glyphicon-pause" onclick = "pause();"></i></button>
+    <button class="btn"><i class="glyphicon glyphicon-refresh" onclick = "refresh();"></i></button>
+    <button class="btn"><i class="glyphicon glyphicon-volume-up" onclick="son('images/pindrop.mp3');"></i></button>
+  </div>
+
+  <div id="info">
+      <p>Projet de développement multimédia - CERDAN Baptiste - BLESCH Eve</p>
+  </div>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Ecran d'accueil</title>
+    <link rel="stylesheet" type="text/css" href="CSS/ecran_accueil.css">
+    <meta charset="utf-8">
+    <script src="fonctionnement/stockage.js"></script>
+</head>
+<body>
+    <h1><b>Casse-briques</b></h1>
+    <form action="menu_niveaux.html">
+        <input type="text" id="champ_pseudo" placeholder="Rentrez votre pseudo...">
+        <button onclick="loadPseudo();">Continuer</button>
+    </form>
+
+    <div id="affichage_score">
+    <ul id="score">
+      <li>SCORE</li>
+    </ul>
+    <script> printScore();</script>
+    </div>
+    <p>Projet de développement multimédia - CERDAN Baptiste - BLESCH Eve</p>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+body{
+	background-image: url("../images/background2.jpg");
+}
+
+canvas{
+	background-image: url("../images/space.png");
+	opacity: 0.9;
+	margin-left: 350px;
+	border:1px solid #d3d3d3;
+}
+
+.btn {
+	color: black;
+	opacity: 0.6;
+	
+	font-size: 15px;
+	border: 3px solid black;
+	border-radius: 7px;
+	cursor: pointer;
+}
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+
+#boutons{
+	margin-left: 680px;
+}
+
+#score
+{
+	position: relative;
+  	top: -400px;
+  	left: 20px;
+	width: 300px;
+	background-color: white;
+	color:red;
+	text-decoration: none;
+}
+
+/*li
+{
+	font-weight:bold;
+	margin: 0 auto;
+	width: 250px;
+	list-style-type: none; 
+}
+*/
+#instructions{
+	float:right;
+	margin-top:100px;
+	margin-right:30px;
+}
+
+p{
+	color:white;
+	font-family: "Comic Sans MS",serif;
+	font-size:20px;
+}
+
+#info{
+	margin-top:10px;
+	margin-left:450px;
+}

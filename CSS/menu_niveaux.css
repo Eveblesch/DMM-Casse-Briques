@@ -1,0 +1,37 @@
+body{
+    background-image: url("../images/fond.jpg");
+    background-size: 1920px 1080px;
+}
+
+#boutons{
+	width:333px;
+	margin: auto;
+	margin-top:100px;
+}
+button{
+    color: black;
+    opacity: 0.6;
+    padding: 15px 25px;
+    font-size: 36px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 7px;
+    font-family: "Comic Sans MS",serif;
+    /*margin-left:600px;*/
+   	width:333px;
+
+    margin-bottom: 20px;
+
+}
+
+button:hover {
+  background-color: grey;
+}
+
+p{
+    color:white;
+    font-family: "Comic Sans MS",serif;
+    font-size:20px;
+  margin-top:10px;
+  margin-left:450px;
+}
